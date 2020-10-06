@@ -1,6 +1,9 @@
 class Main {
     public static void main(String[] args) {
-        DollarTest tests = new DollarTest();
+        Tests tests = new Tests();
+
         tests.testMultiplication();
+        tests.testEquality();
+        tests.testFrancMultiplication();
     }
 }
